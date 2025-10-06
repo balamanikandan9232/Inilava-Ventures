@@ -86,9 +86,15 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// document.querySelectorAll(".menu-list a").forEach((link) => {
-//   link.addEventListener("click", () => {
-//     nav.classList.remove("open");
-//     lineCt.classList.remove("open");
-//   });
-// });
+document.addEventListener("contextmenu", (event) => event.preventDefault());
+document.onkeydown = function (e) {
+  if (
+    e.key === "F12" ||
+    (e.ctrlKey && e.shiftKey && e.key === "I") ||
+    (e.ctrlKey && e.shiftKey && e.key === "J") ||
+    (e.ctrlKey && e.key === "U")
+  ) {
+    e.preventDefault();
+    return false;
+  }
+};

@@ -1,16 +1,108 @@
-# React + Vite
+<div align="center">
+  <img src="client/public/images/C-Logo.png" alt="Inilava Ventures Logo" width="200"/>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Inilava Ventures - MERN Stack Landing Page
 
-Currently, two official plugins are available:
+A fully responsive landing page for Inilava India Ventures, built using React, Node.js, Express, and MongoDB. The project offers modern UI, seamless quote request handling, and secure backend integration for real-world business scenarios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive UI:** Built with React and styled-components for best-in-class user experience on all devices.
+- **Animated Transitions:** Image sliding and text effects for engaging presentation.
+- **Quote Request Form:** Integrates frontend form with backend (Node.js + Express) email delivery (Nodemailer).
+- **Scalable Architecture:** Uses MongoDB for data storage and efficient Express routing.
+- **Clean Structure:** Follows best practices for component design and API organization.
+- **Easy Deployment:** Ready for Vercel (frontend) and Render/Railway (backend).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, styled-components, BoxIcons, EmailJS/Nodemailer, CSS Modules
+- **Backend:** Node.js, Express, MongoDB, Nodemailer
+- **Deployment:** Vercel, Render/Railway, GitHub Actions (CI/CD optional)
+- **Utilities:** dotenv for environment management, Postman for API testing
+
+---
+
+## 📂 Project Structure
+
+## 🎯 Getting Started
+
+### Frontend
+cd frontend
+npm install
+npm run dev # For local development
+npm run build # For production build (Vercel runs this automatically)
+
+### Backend
+cd backend
+npm install
+npm run dev # For local development
+npm start # For production (Render/Railway)
+
+
+---
+
+## 📧 Email Integration
+
+- Uses Nodemailer on the backend for sending quote request emails.
+- Configure your email credentials in `backend/.env` for secure delivery.
+
+---
+
+## 💡 Environment Variables
+
+- Frontend: `.env.local` (React API URL, EmailJS keys if used on frontend only)
+- Backend: `.env` (email credentials, MongoDB URI, CORS settings)
+
+---
+
+## 🎨 Customization
+
+- Update styles easily in `frontend/src/styles/` or your preferred CSS approach.
+- Modify form fields and animations in `components/` for unique business needs.
+
+---
+
+## 🚢 Deployment
+
+| Platform  | Folder        | Command             | Notes                  |
+|-----------|--------------|---------------------|------------------------|
+| Vercel    | `frontend/`  | `npm run build`     | Autodetects React app  |
+| Render    | `backend/`   | `npm start`         | Set .env variables     |
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a feature branch: `git checkout -b feature/xyz`
+3. Commit changes: `git commit -m "Add feature"`
+4. Open a Pull Request
+
+---
+
+## 👨‍💼 Author
+
+**Bala Manikandan P**  
+Full Stack Developer (MERN)  
+📧 balamanikandan9232@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/bala-manikandann/)  
+[Portfolio](https://bala-portfolio-p.vercel.app/)  
+[GitHub](https://github.com/balamanikandan9232)
+
+---
+
+## 📞 Support
+
+Have questions?  
+Open an issue or email [balamanikandan9232@gmail.com](mailto:balamanikandan9232@gmail.com)
+
+---
+
+**Made with ❤️ for Inilava India Ventures**
+

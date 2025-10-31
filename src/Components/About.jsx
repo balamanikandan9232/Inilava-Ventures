@@ -9,7 +9,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-stack">
           <div className="about-img">
-            <img src="/public/images/abt-scrapaiimg.png" alt="abt-img" />
+            <img src="public/images/abt-scrapaiimg.png" alt="abt-img" />
           </div>
           <div className="about-text">
             <p className="abt-title staggered-text">

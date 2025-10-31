@@ -26,7 +26,7 @@ const Hero = () => {
               Sell your scrap
             </button>
           </div>
-          <img src="/public/images/hero-img.png" alt="" className="observe-img" />
+          <img src="public/images/hero-img.png" alt="" className="observe-img" />
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styledComponents/Service.css";
+import "../StyledComponents/Service.css";
 
 const Services = () => {
   return (

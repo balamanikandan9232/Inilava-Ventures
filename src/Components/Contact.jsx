@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styledComponents/Contact.css";
+import "../StyledComponents/Contact.css";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);

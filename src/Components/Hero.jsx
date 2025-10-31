@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styledComponents/Hero.css";
+import "../StyledComponents/Hero.css";
 
 const Hero = () => {
   const handleSellClick = () => {

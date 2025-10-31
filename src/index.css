@@ -1,0 +1,139 @@
+:root {
+  --purple-color: #3b1e54;
+  --Mid-pur-clr: #9b7ebd;
+  --light-pur-clr: #d4bee4;
+  --pp-clr-300: #f2eeff;
+  --background-clr: #eeeeee;
+  --bg-clr: rgba(255, 255, 255, 20%);
+  --nav-color: rgba(204, 204, 204, 100%);
+  --nav-color-hover: rgba(85, 85, 85, 100%);
+  --milky-white: #fffffb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+/* .menu-list a {
+  display: block;
+}
+
+.line-ct .top-line,
+.line-ct .bot-line {
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.menu-list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease, visibility 0.3s ease;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: var(--nav-color-hover);
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#nav.open {
+  opacity: 1;
+  visibility: visible;
+  max-height: 400px;
+} */
+
+/* .line-ct.open .top-line {
+    transform: rotate(45deg);
+    top: 12px;
+    left: 0;
+    width: 18px;
+    border: 2px solid #ff0000;
+  }
+
+  .line-ct.open .bot-line {
+    transform: rotate(-45deg);
+    top: 12px;
+    left: 0;
+    width: 18px;
+    border: 2px solid #ff0000;
+  }
+  .h-line {
+    display: flex;
+    border: 2px solid #ff0000;
+  } */
+
+/* max-height: 0;
+overflow: hidden; */
+/* z-index: 10; */
+/* opacity: 0; */
+/* visibility: hidden;  */
+/* .menu-list {
+  transition: max-height 0.4s ease, opacity 0.3s ease, visibility 0.3s ease;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+} */
+
+/* #nav.open {
+  opacity: 1;
+  visibility: visible;
+  max-height: 400px;
+} */
+
+/* .line-ct .top-line,
+.line-ct .bot-line {
+  transition: all 0.3s ease;
+  transform-origin: center;
+} */
+
+/* .line-ct {
+  position: relative;
+  width: 18px;
+  height: 27px;
+  overflow: hidden;
+}
+.top-line,
+.bot-line {
+  position: absolute;
+  left: 0;
+  width: 18px;
+  height: 2px;
+  background: var(--milky-white); 
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.top-line {
+  top: 9px;
+  position: absolute;
+  width: 13px;
+  height: 2px;
+  top: 9px;
+  left: 5px;
+  bottom: 16px;
+  border-radius: 10px;
+  background: var(--milky-white);
+}
+.bot-line {
+  top: 16px;
+  position: absolute;
+  top: 16px;
+  bottom: 9px;
+  width: 18px;
+  height: 2px;
+  border-radius: 10px;
+  background: var(--milky-white);
+} */

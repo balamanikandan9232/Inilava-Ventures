@@ -1,0 +1,112 @@
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 125px 30px;
+  background: linear-gradient(150deg, #999999, var(--nav-color));
+  font-family: "figtree", sans-serif;
+}
+.abt-text-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--milky-white);
+}
+.about-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: var(--bg-clr);
+  border-radius: 15px;
+  padding: 20px;
+  gap: 40px;
+  transition: box-shadow 0.3s ease;
+}
+.about-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.about-stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 50px;
+  border-radius: 15px;
+}
+.about-img {
+  width: 100%;
+  height: 550px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.abt-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.4em;
+  color: var(--nav-color-hover);
+}
+.abt-desc {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.7em;
+  color: #5c5470;
+}
+.keylists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+.icon-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+}
+.icon-text i {
+  color: var(--milky-white);
+  border-radius: 100px;
+  font-size: 24px;
+}
+.icon-text h3 {
+  color: var(--nav-color-hover);
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: row;
+  }
+  .about-stack {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+ 
+}

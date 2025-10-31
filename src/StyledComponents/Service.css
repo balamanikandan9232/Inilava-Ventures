@@ -1,0 +1,124 @@
+.service-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  padding: 125px 30px;
+  overflow: hidden;
+  background: var(--nav-color-hover);
+}
+.ser-container {
+  position: relative;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  z-index: 2;
+}
+.ser-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 75px;
+  font-family: "figtree", sans-serif;
+}
+.ser-texts {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  text-align: center;
+}
+.servTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--milky-white);
+  line-height: 1.4em;
+}
+.servDesc {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7em;
+  color: var(--background-clr);
+}
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px 30px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: nowrap;
+  gap: 50px;
+  padding: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: var(--bg-clr);
+}
+
+.ser-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.ser-icon i {
+  font-size: 50px;
+  color: var(--milky-white);
+  font-weight: 500;
+}
+.ser-list-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ser-list-text h3 {
+  font-size: 22px;
+  line-height: 1.5em;
+  color: var(--milky-white);
+}
+
+.ser-list-text p {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 500;
+  color: var(--nav-color);
+}
+
+@media screen and (max-width: 768px) {
+  .ser-container {
+    max-width: 400px;
+  }
+  .ser-stack {
+    gap: 50px;
+  }
+  .ser-texts {
+    max-width: 500px;
+  }
+  .service-list {
+    grid-template-columns: 1fr;
+  }
+
+  .ser-icon {
+    justify-content: start;
+  }
+}

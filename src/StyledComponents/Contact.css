@@ -1,0 +1,206 @@
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: nowrap;
+  padding: 125px 30px;
+  overflow: hidden;
+  background: var(--nav-color);
+}
+
+.contact-ct {
+  position: relative;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-family: "figtree", sans-serif;
+}
+.contact-stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: nowrap;
+}
+.contact-texts {
+  height: 405px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.ct-title {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 1.15em;
+  color: var(--nav-color-hover);
+}
+.ct-desc {
+  font-size: 18px;
+  line-height: 1.7em;
+  font-weight: 500;
+  color: var(--nav-color-hover);
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+.company-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.company-list i {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  color: var(--milky-white);
+  background: var(--nav-color-hover);
+  border-radius: 30px;
+}
+.company-list a,
+h4 {
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: 600;
+  /* color: var(--purple-color); */
+  color: #673a8f;
+}
+.contact-form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  /* background: #9b7ebd; */
+  background: #999999;
+  /* background: var(--light-pur-clr); */
+  border-radius: 15px;
+}
+.form-ct {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+  padding: 40px;
+  overflow: hidden;
+}
+.form-ct h2 {
+  font-size: 24px;
+  line-height: 1.4em;
+  font-weight: 600;
+  color: var(--milky-white);
+  font-family: "figtree", sans-serif;
+}
+.form-ct form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+
+.form-ct label {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+}
+.form-ct input,
+select,
+textarea,
+button {
+  height: 50px;
+  font-size: 14px;
+  line-height: 1.2em;
+  border-radius: 10px;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  background: var(--bg-clr);
+}
+
+.form-ct option {
+  font-size: 18px;
+  /* background: #9b7ebd; */
+  background: #999999;
+  font-family: "figtree", sans-serif;
+}
+
+input,
+textarea,
+select:focus {
+  outline: none;
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--nav-color-hover);
+  font-family: "figtree", sans-serif;
+}
+.form-ct select {
+  color: var(--nav-color-hover);
+}
+
+.form-ct textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form-ct button {
+  height: 55px;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: var(--nav-color-hover);
+  background: var(--nav-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+.form-ct button:hover {
+  background: var(--bg-clr);
+
+  color: var(--milky-white);
+}
+
+@media screen and (max-width: 768px) {
+  .contact-ct {
+    max-width: 500px;
+  }
+  .contact-stack {
+    flex-direction: column;
+  }
+  .contact-texts {
+    height: auto;
+  }
+}

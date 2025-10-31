@@ -25,7 +25,7 @@ const App = () => {
             <a href="/">
               <img
                 className="logo"
-                src="public/images/C-Logo.png"
+                src="/images/C-Logo.png"
                 alt="logo"
               />
             </a>

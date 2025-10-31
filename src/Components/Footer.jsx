@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-ct">
         <div className="footer-stack">
           <span className="ft-c-info">
-            <img src="/public/images/C-Logo.png" alt="" />
+            <img src="/images/C-Logo.png" alt="" />
             <span className="ft-c-infostack">
               <h2 className="ft-c-title">Inilava India Ventures Pvt Ltd</h2>
               <p className="ft-c-desc">
